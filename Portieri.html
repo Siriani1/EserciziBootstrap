@@ -3,12 +3,34 @@
   <title>Portieri</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Colori.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-md bg-primary navbar-dark">
+  <a class="navbar-brand" href="sito.html">Inter</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>	
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-light" href="Portieri.html">Portieri</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="Difensori.html">Difensori</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="Centrocampisti.html">Centrocampisti</a>
+      </li>  
+	  <li class="nav-item">
+        <a class="nav-link text-light" href="Attaccanti.html">Attacanti</a>
+      </li> 
+    </ul>
+  </div>  
+</nav>
 
 <div class="container">
   <h2>Portieri</h2>
@@ -25,6 +47,14 @@
       </tr>
     </thead>
     <tbody>
+	<tr>
+        <td>Berni Tommaso</td>
+        <td>0</td>
+		<td>2</td>
+		<td>0</td>
+		<td>0</td>
+		<td>ND</td>
+      </tr>
       <tr>
         <td>Handanovic Samir</td>
         <td>35</td>
@@ -41,27 +71,20 @@
 		<td>4</td>
 		<td>6.85</td>
       </tr>
-      <tr>
-        <td>Berni Tommaso</td>
-        <td>0</td>
-		<td>2</td>
-		<td>0</td>
-		<td>0</td>
-		<td>ND</td>
-      </tr>
 	  <tr>
-	    <td><a class="align-bottom" href="Sito.html">Indietro</a></td>
-	    <td></td>
-        <td></td>
-        <td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-      </tr>
     </tbody>
   </table>
 </div>
 
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <img src="Berni.jpg" class="card-link" style="width:200px">Berni Tommaso</img>
+      <img src="Handanovic.jpg" class="card-link" style="width:200px">Handanovic Samir</img>
+	  <img src="Padelli.png" class="card-link" style="width:200px">Padelli Daniele</img>
+    </div>
+  </div>
+</div> 
+ 
 </body>
 </html>
